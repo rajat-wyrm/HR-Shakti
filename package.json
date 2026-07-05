@@ -1,0 +1,24 @@
+{
+  "name": "hrshakti",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:generate": "pnpm --filter @hrshakti/api run prisma:generate",
+    "db:push": "pnpm --filter @hrshakti/api run prisma:push",
+    "db:studio": "pnpm --filter @hrshakti/api run prisma:studio",
+    "db:migrate": "pnpm --filter @hrshakti/api run prisma:migrate"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "prettier": "^3.2.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
