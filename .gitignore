@@ -10,3 +10,5 @@ turbo-output/
 .prisma/
 *.tsbuildinfo
 keys/
+.turbo/
+*.log

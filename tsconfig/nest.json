@@ -3,10 +3,13 @@
   "compilerOptions": {
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
     "target": "ES2022",
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
+    "strictPropertyInitialization": false,
     "paths": {
       "@/*": ["./src/*"]
     }
