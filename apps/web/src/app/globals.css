@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #F8FAFC;
+    --foreground: #0F172A;
+    --card: #FFFFFF;
+    --card-foreground: #0F172A;
+    --border: #E2E8F0;
+    --muted: #64748B;
+  }
+
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] font-sans;
+  }
+}
